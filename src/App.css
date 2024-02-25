@@ -1,0 +1,18 @@
+.wow {
+  color: grey;
+  font-size: 3em;
+  box-shadow: 0px 1px 3px -1px black;
+  padding: 3em;
+  border-radius: 8px;
+  width:fit-content;
+  margin: 0;
+  background-color: white;
+}
+
+.app {
+  height: 100%;
+  background-color: rgb(101, 153, 153);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
