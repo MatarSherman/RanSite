@@ -12,6 +12,7 @@
 @media (max-width: 768px) {
   .mainText {
     width: initial;
+    font-size: 1.2em !important;
   }
 }
 

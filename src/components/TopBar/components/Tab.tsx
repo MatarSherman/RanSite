@@ -20,7 +20,7 @@ export const Tab = (props: Props & React.ComponentProps<'a'>) => {
         <a
             {...props}
             onClick={onClick}
-            style={{ textDecoration: 'none', color: 'unset', ...props.style }}
+            style={{ textDecoration: 'none', color: 'unset', cursor: 'pointer', ...props.style }}
         >{
 
             }
