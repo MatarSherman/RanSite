@@ -26,7 +26,7 @@ export const TopBar = () => {
     <div
       className={'bar'}
       style={{
-        background: 'white', width: '101vw', padding: '0 2em',
+        background: 'white', width: '101vw', 
         boxShadow: '0px 0px 5px 0px black', display: 'flex', alignItems: 'center',
         zIndex: 2, position: 'fixed',
       }}>
