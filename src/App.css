@@ -3,6 +3,7 @@
   flex-direction: column;
   font-family: 'Segoe UI';
   font-size: 1.3em;
+  -webkit-tap-highlight-color: transparent !important;
 }
 
 .mainText {

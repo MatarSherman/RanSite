@@ -28,7 +28,7 @@ export const TopBar = () => {
       style={{
         background: 'white', width: '101vw', 
         boxShadow: '0px 0px 5px 0px black', display: 'flex', alignItems: 'center',
-        zIndex: 2, position: 'fixed',
+        zIndex: 1, position: 'fixed',
       }}>
       <Tab section={'home'}>
         <img src={logo} style={{width:'10em'}}/>
