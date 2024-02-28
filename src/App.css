@@ -1,18 +1,35 @@
-.wow {
-  color: grey;
-  font-size: 3em;
-  box-shadow: 0px 1px 3px -1px black;
-  padding: 3em;
-  border-radius: 8px;
-  width:fit-content;
-  margin: 0;
-  background-color: white;
+.app {
+  display:flex;
+  flex-direction: column;
+  font-family: 'Segoe UI';
+  font-size: 1.3em;
 }
 
-.app {
-  height: 100%;
-  background-color: rgb(101, 153, 153);
-  display:flex;
-  justify-content: center;
-  align-items: center;
+.mainText {
+  width: 70%
+}
+
+@media (max-width: 768px) {
+  .mainText {
+    width: initial;
+  }
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: rgb(192, 192, 192);
+  background-clip: content-box;
+  border: 2px solid transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
 }

@@ -14,7 +14,9 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "outDir": "dist",
-    "types": ["react", "react-dom"]
+    "types": ["react", "react-dom"],
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
   },
   "include": ["src", "index.tsx"]
 }

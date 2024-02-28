@@ -1,0 +1,51 @@
+.mobile {
+    display: none
+}
+
+.bar {
+    gap: calc(1em + 4vw)
+}
+
+.menuButton {
+    position: relative;
+    cursor: pointer;
+}
+
+.menu {
+    position: absolute;
+    top: 100%;
+    right: 50%;
+    transition: 0.15s ease-out;
+    width: fit-content;
+    padding: 1em;
+    z-index: 99;
+    background-color: white;
+    transform-origin: top right;
+    box-shadow: 1px 1px 3px -1px black;
+}
+
+.closed {
+    overflow: hidden;
+    opacity: 0;
+    transform: scale(0)
+}
+
+.open {
+    height: fit-content;
+    transform: scale(1)
+}
+
+@media (max-width: 990px) {
+    .desktop {
+        display: none !important;
+    }
+
+    .mobile {
+        display: initial;
+    }
+
+    .bar {
+        justify-content: space-between;
+        gap: 0;
+    }
+}
