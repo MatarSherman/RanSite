@@ -1,6 +1,6 @@
 import { SubHeading } from '../components/SubHeading'
 import { Heading } from '../components/Heading'
-import { Page } from '../components/Page'
+import { Page } from '../components/Page/Page'
 import { Texts } from '../components/Text'
 
 export const ServicesPage = () => {

@@ -1,4 +1,19 @@
 .page {
-    background-image: url('../../assets/images/bg.jpg');
-    background-size: cover;
+    transform: translate(0, 2em);
+    display:flex;
+    flex-direction: row;
+    padding: 0 !important;
+    overflow: clip;
+}
+
+.homepagetext {
+    z-index: 3; 
+    box-shadow: 1px -3em 8px 2px black;
+    padding: 13vh 0 0 3%;
+    min-width: 40%;
+}
+
+.hpimage {
+    height: 100%;
+    width: auto;
 }

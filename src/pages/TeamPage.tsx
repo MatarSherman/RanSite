@@ -1,6 +1,6 @@
 import { Texts } from '../components/Text'
 import { Heading } from '../components/Heading'
-import { Page } from '../components/Page'
+import { Page } from '../components/Page/Page'
 import { SubHeading } from '../components/SubHeading'
 
 export const TeamPage = () => {

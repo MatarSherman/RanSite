@@ -1,0 +1,5 @@
+.pageClass {
+    width: 100%; 
+    min-height: clamp(105vh, calc(140vh - 25vw), 130vh);
+    padding: 13vh 3%; 
+}
