@@ -8,7 +8,7 @@ import bg from '../../assets/images/bg.jpg';
 export const Homepage = () => {
     return (
         <Page id='home' className='page'>
-            <div className='homepagetext'>
+            <div className='page-text'>
                 <Heading className='fitContentWidth' style={{ fontSize: 'clamp(4.3em, calc(3.5em + 2vw), 5em)', margin: 0, fontWeight: 600 }}>
                     InTerra
                 </Heading>
@@ -27,7 +27,7 @@ export const Homepage = () => {
                     From agriculture to urban planning, our mission is to provide advanced insights and tools for a sustainable future.
                 </Texts>
             </div>
-            <img src={bg} className='hpimage'/>
+            <img src={bg}/>
         </Page>
     )
 }

@@ -16,7 +16,7 @@
     position: absolute;
     top: 100%;
     right: 50%;
-    transition: 0.15s ease-out;
+    transition: 0.2s ease;
     width: fit-content;
     padding: 1em;
     z-index: 99;
@@ -33,10 +33,11 @@
 
 .open {
     height: fit-content;
-    transform: scale(1)
+    transform: scale(1);
+    opacity: 1;
 }
 
-@media (max-width: 990px) {
+@media (max-width: 1230px) {
     .desktop {
         display: none !important;
     }
