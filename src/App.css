@@ -7,6 +7,12 @@
   gap: 3em;
 }
 
+@media (max-width: 1230px) {
+  .app {
+    gap: 1.5em
+  }
+}
+
 .mainText {
   width: 70%
 }
