@@ -1,7 +1,8 @@
-import { SubHeading } from '../components/SubHeading'
-import { Heading } from '../components/Heading'
-import { Page } from '../components/Page/Page'
-import { Texts } from '../components/Text'
+import { SubHeading } from '../../components/SubHeading'
+import { Heading } from '../../components/Heading'
+import { Page } from '../../components/Page/Page'
+import { Texts } from '../../components/Text'
+import './ClientsPage.css'
 
 export const ClientsPage = () => {
     return (

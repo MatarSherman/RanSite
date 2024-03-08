@@ -6,7 +6,7 @@ import { Texts } from '../components/Text'
 export const ServicesPage = () => {
     return (
         <Page id='services'>
-            <Heading style={{ fontSize: 'clamp(2em, 2em,4em)', fontWeight: 600, marginTop: 0, textWrap: 'nowrap' }}>
+            <Heading style={{ fontSize: 'clamp(2em, 2em,4em)', fontWeight: 600, textWrap: 'nowrap' }}>
                 Our Services
             </Heading>
             <SubHeading>

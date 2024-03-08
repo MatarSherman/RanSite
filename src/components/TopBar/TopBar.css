@@ -5,6 +5,7 @@
 .bar {
     gap: calc(1em + 4vw);
     padding: 0 2em;
+    z-index: 9999999;
 }
 
 .menuButton {

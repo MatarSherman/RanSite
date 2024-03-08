@@ -4,7 +4,7 @@ import { TopBar } from './components/TopBar/TopBar';
 import { AboutPage } from './pages/AboutPage';
 import { ExpertisePage } from './pages/ExpertisePage/ExpertisePage';
 import { ServicesPage } from './pages/ServicesPage';
-import { ClientsPage } from './pages/ClientsPage';
+import { ClientsPage } from './pages/clientsPage/ClientsPage';
 import { TeamPage } from './pages/TeamPage/TeamPage';
 
 export const App = () => {
