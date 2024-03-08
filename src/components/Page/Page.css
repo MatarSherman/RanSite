@@ -3,3 +3,9 @@
     min-height: clamp(105vh, calc(140vh - 25vw), 130vh);
     padding: 13vh 3%; 
 }
+
+@media (max-width: 1230px) {
+    .pageClass {
+        padding-bottom: 0;
+    }
+}
