@@ -27,7 +27,9 @@ export const Homepage = () => {
                     From agriculture to urban planning, our mission is to provide advanced insights and tools for a sustainable future.
                 </Texts>
             </div>
-            <img src={bg}/>
+            <div className='img-wrapper'>
+                <img src={bg} />
+            </div>
         </Page>
     )
 }
