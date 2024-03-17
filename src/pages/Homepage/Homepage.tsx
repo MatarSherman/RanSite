@@ -1,19 +1,21 @@
 import { SubHeading } from '../../components/SubHeading';
 import { Heading } from '../../components/Heading';
-import { Page } from '../../components/Page';
+import { Page } from '../../components/Page/Page';
 import './Homepage.css'
 import { Texts } from '../../components/Text';
+import bg from '../../assets/images/bg.jpg';
 
 export const Homepage = () => {
     return (
-        <Page id='home' className='page' style={{transform: 'translate(0, 2em)'}}>
-                <Heading style={{ fontSize: 'clamp(4.3em, calc(3.5em + 2vw), 5em)', margin: 0, fontWeight: 600 }}>
+        <Page id='home' className='page'>
+            <div className='page-text'>
+                <Heading className='fitContentWidth' style={{ fontSize: 'clamp(4.3em, calc(3.5em + 2vw), 5em)', margin: 0, fontWeight: 600 }}>
                     InTerra
                 </Heading>
-                <SubHeading style={{ color: '#1D6B5F', fontSize: 'clamp(2em, 2em, 3em)', fontWeight: 500 }}>
+                <SubHeading className='fitContentWidth' style={{ color: '#1D6B5F', fontSize: 'clamp(2em, 2em, 3em)', fontWeight: 500 }}>
                     Pioneering the Future of Earth Intelligence
                 </SubHeading>
-                <SubHeading className='mainText'>
+                <SubHeading className='fitContentWidth'>
                     Welcome to InTerra, Intelligence, Terra-Centric, Innovation,
                     where innovation meets Earth&#39;s challenges head-on.
                 </SubHeading>
@@ -24,6 +26,8 @@ export const Homepage = () => {
                 <Texts>
                     From agriculture to urban planning, our mission is to provide advanced insights and tools for a sustainable future.
                 </Texts>
+            </div>
+            <img src={bg}/>
         </Page>
     )
 }

@@ -1,32 +1,41 @@
-#home.page {
+#expertise.page {
     transform: translate(0, 0);
     display: flex;
     flex-direction: row;
-    padding: 0 !important;
+    /* padding: 0 !important; */
     overflow: clip;
+    padding: 0 0 0 3%;
 }
-#home {
+
+#expertise {
     .page-text {
         z-index: 3;
         /* box-shadow: 1px -3em 8px 2px black; */
-        padding: 13vh 1em 0 3%;
-        min-width: 40%;
+        min-width: 45%;
+        width: 50%;
     }
+
+    img {
+        width: 100%;
+    }
+
+
 }
 
 @media (max-width: 1230px) {
-    #home.page {
+    #expertise.page {
         flex-direction: column;
+        padding: 0;
     }
-
-    /* .page-text {
-        box-shadow: 1px 0px 8px 2px black;
-    } */
-    #home {
+   
+    #expertise {
+        .page-text {
+            padding: 0 0 0 3%;
+            width: unset;
+        }
         .page-text>* {
             width: calc(45% + 10em);
             max-width: 95%;
         }
     }
-    
 }
