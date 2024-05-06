@@ -1,23 +1,26 @@
 import './App.css'
-import { Homepage } from './pages/Homepage/Homepage';
+import { Hero } from './pages/HomePage/Hero/Hero';
 import { TopBar } from './components/TopBar/TopBar';
-import { AboutPage } from './pages/AboutPage';
+import { About } from './pages/HomePage/About';
+import { Expertise } from './pages/HomePage/Expertise/Expertise';
+import { Services } from './pages/HomePage/Services/Services';
+import { Clients } from './pages/HomePage/Clients/Clients';
+import { Team } from './pages/HomePage/Team/Team';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { ExpertisePage } from './pages/ExpertisePage/ExpertisePage';
-import { ServicesPage } from './pages/ServicesPage';
-import { ClientsPage } from './pages/clientsPage/ClientsPage';
-import { TeamPage } from './pages/TeamPage/TeamPage';
+import { HomePage } from './pages/HomePage/Homepage';
 
 export const App = () => {
   return (
+    <BrowserRouter>
     <div className='app'>
         <TopBar />
-        <Homepage />
-        <AboutPage />
-        <ExpertisePage />
-        <ServicesPage />
-        <ClientsPage />
-        <TeamPage />
+        <Routes>
+          <Route path='/' element={<HomePage />}/>
+          <Route path='/expertise' element={<ExpertisePage />}/>
+        </Routes>
     </div>
+    </BrowserRouter>
   );
 }
 

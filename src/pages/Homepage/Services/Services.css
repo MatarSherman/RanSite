@@ -1,0 +1,19 @@
+.servicesInfo {
+    @media (min-width: 950px) {
+        display: flex;
+        flex-direction: row;
+        gap: 1vw;
+    }
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+}
+
+.serviceTitle {
+    @media (min-width: 990px) {
+        text-wrap: nowrap;
+        font-size: 1.2em !important;
+    }
+}
