@@ -1,7 +1,7 @@
 import { SubHeading } from '../../../components/SubHeading'
-import { Heading } from '../../../components/Heading'
+import { Heading } from '../../../components/Heading/Heading'
 import { Page } from '../../../components/Page/Page'
-import { Texts } from '../../../components/Text'
+import { Texts } from '../../../components/Text/Text'
 import './Clients.css'
 
 const Client = (props: { text: string }) => {
@@ -20,7 +20,7 @@ export const Clients = () => {
             <Heading style={{ textAlign: 'center' }}>
                 Target Client Segments
             </Heading>
-            <div className='clientsRow' style={{maxWidth: '90%', marginInline: 'auto'}}>
+            <div className='clientsRow' style={{maxWidth: '95%', marginInline: 'auto'}}>
                 <Client text='Urban Development and Infrastructure Planners and Engineers' />
                 <Client text='Environmental and Sustainability Enterprises' />
             </div>

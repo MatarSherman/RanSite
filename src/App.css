@@ -15,16 +15,7 @@
   }
 }
 
-.mainText {
-  width: 70%
-}
 
-@media (max-width: 768px) {
-  .mainText {
-    width: initial;
-    font-size: 1.2em !important;
-  }
-}
 
 *::-webkit-scrollbar {
   width: 10px;

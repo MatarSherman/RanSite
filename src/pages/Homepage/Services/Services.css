@@ -6,6 +6,12 @@
     }
 }
 
+.servicesHeading {
+    @media (min-width: 950px) {
+        text-align: center;
+    }
+}
+
 .service {
     display: flex;
     flex-direction: column;

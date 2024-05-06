@@ -1,7 +1,7 @@
 import { SubHeading } from '../../../components/SubHeading'
-import { Heading } from '../../../components/Heading'
+import { Heading } from '../../../components/Heading/Heading'
 import { Page } from '../../../components/Page/Page'
-import { Texts } from '../../../components/Text'
+import { Texts } from '../../../components/Text/Text'
 import expertise from '../../../assets/images/expertise.jpg';
 import './Expertise.css'
 

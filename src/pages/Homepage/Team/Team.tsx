@@ -1,5 +1,5 @@
-import { Texts } from '../../../components/Text'
-import { Heading } from '../../../components/Heading'
+import { Texts } from '../../../components/Text/Text'
+import { Heading } from '../../../components/Heading/Heading'
 import { Page } from '../../../components/Page/Page'
 import { SubHeading } from '../../../components/SubHeading'
 import { TeamMember } from './TeamMember/TeamMember'

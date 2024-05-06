@@ -2,16 +2,11 @@
 // -webkit - background - clip: text; /* for WebKit browsers like Chrome and Safari */
 // color: transparent;
 // display: inline - block;
+import './Heading.css'
 
 export const Heading = (props: React.ComponentProps<'h1'>) => {
     return (
-        <h1 {...props} style={{
-            fontSize: '2.5em',
-            color: '#1D6B5F',
-            fontWeight: 500,
-            marginTop: 0,
-            ...props.style
-        }}>
+        <h1 {...props} className={`heading ${props.className}`}>
         </h1>
     )
 }

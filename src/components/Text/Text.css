@@ -1,0 +1,10 @@
+.mainText {
+    font-weight: 300;
+    font-size: 1.5em;
+    width: 70%;
+
+    @media (max-width: 768px) {
+        width: initial;
+        font-size: 1.2em;
+    }
+}

@@ -1,0 +1,14 @@
+.teamMember {
+    max-width: min(600px, 92%);
+    @media (min-width: 850px) {
+        max-width: 450px;
+    }
+}
+
+.teamMemberName {
+
+}
+
+.teamMemberBody {
+
+}

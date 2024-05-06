@@ -1,7 +1,7 @@
 import { SubHeading } from '../../../components/SubHeading'
-import { Heading } from '../../../components/Heading'
+import { Heading } from '../../../components/Heading/Heading'
 import { Page } from '../../../components/Page/Page'
-import { Texts } from '../../../components/Text'
+import { Texts } from '../../../components/Text/Text'
 import './Services.css'
 
 const Service = (props: { title: string, body: string }) => (
@@ -18,8 +18,8 @@ const Service = (props: { title: string, body: string }) => (
 
 export const Services = () => {
     return (
-        <Page id='services' style={{ minHeight: '53vh' }}>
-            <Heading style={{ textAlign: 'center' }}>
+        <Page id='services' style={{ marginBlockEnd: '5em' }}>
+            <Heading className='servicesHeading'>
                 Our Services
             </Heading>
             <div className='servicesInfo'>
