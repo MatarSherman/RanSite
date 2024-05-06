@@ -18,7 +18,7 @@ const Service = (props: { title: string, body: string }) => (
 
 export const Services = () => {
     return (
-        <Page id='services' style={{ marginBlockEnd: '5em' }}>
+        <Page id='services' className='services'>
             <Heading className='servicesHeading'>
                 Our Services
             </Heading>

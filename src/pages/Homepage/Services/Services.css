@@ -1,3 +1,9 @@
+.services {
+    @media (min-width: 950px) {
+        margin-block-end: 4vw
+    }
+}
+
 .servicesInfo {
     @media (min-width: 950px) {
         display: flex;
