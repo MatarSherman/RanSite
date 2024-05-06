@@ -22,8 +22,7 @@ export const Hero = () => {
                 <Texts>
                     As leaders in space tech, mapping, and geospatial analysis,
                     we harness cutting-edge technologies to offer solutions that make a real difference.
-                </Texts>
-                <Texts>
+                    <br />
                     From agriculture to urban planning, our mission is to provide advanced insights and tools for a sustainable future.
                 </Texts>
             </div>

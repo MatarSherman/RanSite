@@ -17,7 +17,7 @@ const Client = (props: { text: string }) => {
 export const Clients = () => {
     return (
         <Page id='clients'>
-            <Heading style={{ textAlign: 'center' }}>
+            <Heading style={{ textAlign: 'center', marginBottom: 'min(10vw, 1.5em)' }}>
                 Target Client Segments
             </Heading>
             <div className='clientsRow' style={{maxWidth: '95%', marginInline: 'auto'}}>

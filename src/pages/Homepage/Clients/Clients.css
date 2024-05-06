@@ -24,9 +24,8 @@
 }
 
 .client {
-    max-width: 300px;
-    min-height: 150px;
-    padding: 0em 0.3vw;
+    max-width: 340px;
+    padding: 0.3vw;
     background: rgba(255, 255, 255, 0.3);
     border-radius: 4px;
     box-shadow: 0 1px 10px 0px rgba(0, 0, 0, 0.1);
@@ -37,6 +36,12 @@
     justify-items: center;
     align-items: center;
     text-align: center;
+    font-size: clamp(1em, 3.7vw, 1.25em);
+    @media(min-width: 768px) {
+        min-height: 175px;
+        padding-inline: 1.5vw;
+    }
+
     @media (max-width: 475px) {
         font-size: 0.8em !important;
     }
