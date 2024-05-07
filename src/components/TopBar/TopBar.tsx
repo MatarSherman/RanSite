@@ -26,12 +26,12 @@ export const TopBar = () => {
     <div
       className={'bar'}
       style={{
-        background: 'white', width: '101vw', 
+        background: 'white', width: '101vw',
         boxShadow: '0px 0px 5px 0px black', display: 'flex', alignItems: 'center',
         zIndex: 99, position: 'fixed',
       }}>
       <Tab section={'home'}>
-        <img src={logo} style={{width:'10em'}}/>
+        <img src={logo} style={{ width: '10em' }} />
       </Tab>
       <div
         className={'desktop'}
@@ -40,13 +40,16 @@ export const TopBar = () => {
           textWrap: 'nowrap',
         }}
       >
-        <Tab section="hero" >Home</Tab>
+        {/* <Tab section="hero" >Home</Tab>
         <Tab section='about' >About Us</Tab>
         <Tab section='expertise' >Our Expertise</Tab>
         <Tab section='services' >Our Services</Tab>
         <Tab section='clients' >Clients</Tab>
         <Tab section='team' >Leadership Team</Tab>
-        <Tab section='contact' >Contact us</Tab>
+        <Tab section='contact' >Contact us</Tab> */}
+        <Tab section='/'>Home</Tab>
+        <Tab section='/expertise'>Expertise</Tab>
+        <Tab section='/clients'>Clients</Tab>
       </div>
       <div className="menuButton mobile" ref={menuRef}>
         <BurgerIcon onClick={() => setIsMenuOpen(curr => !curr)} className="mobile" style={{ width: '1em', height: '1em', userSelect: 'none' }}>
