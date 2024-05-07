@@ -3,46 +3,62 @@
         padding-top: 2.5em;
     }
 } */
-
-.clientsGrid {
-    display: grid;
-    justify-items: center;
-    /* grid-template-columns: 1fr 1fr;
+#clients {
+    .clientsGrid {
+        display: grid;
+        justify-items: center;
+        /* grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr; */
-    grid-template-areas:
-        ". 1 1 2 2 ."
-        "4 4 5 5 6 6";
-}
-
-.clientsRow {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: center;
-    gap: 3vw;
-    margin-bottom: min(5vw, 2.5em);
-}
-
-.client {
-    max-width: 340px;
-    padding: 0.3vw;
-    background: rgba(255, 255, 255, 0.3);
-    border-radius: 4px;
-    box-shadow: 0 1px 10px 0px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(2px);
-    border: 1px solid rgba(255, 255, 255, 0.29);
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    text-align: center;
-    font-size: clamp(1em, 3.7vw, 1.25em);
-    @media(min-width: 768px) {
-        min-height: 175px;
-        padding-inline: 1.5vw;
+        grid-template-areas:
+            ". 1 1 2 2 ."
+            "4 4 5 5 6 6";
     }
 
-    @media (max-width: 475px) {
-        font-size: 0.8em !important;
+    .clientsRow {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        gap: 3vw;
+        margin-bottom: min(5vw, 2.5em);
+
+        @media (max-width: 475px) {
+            flex-wrap: wrap;
+        }
+    }
+
+    .clientsRow.firstRow {
+        @media (min-width: 476px) {
+            max-width: 85%;
+            margin-inline: auto;
+        }
+    }
+
+    .client {
+        max-width: 340px;
+        padding: 1vw calc(1vw + 0.175em);
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 4px;
+        box-shadow: 0 1px 10px 0px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px);
+        border: 1px solid rgba(255, 255, 255, 0.29);
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+
+        @media(min-width: 768px) {
+            min-height: 175px;
+            padding-inline: 1.5vw;
+        }
+    }
+
+    .clientName {
+        font-size: clamp(1em, 4vw, 1.25em);
+
+        /* @media (max-width: 475px) {
+            font-size: clamp(0.85em, 4.5vw, 1em);
+        } */
     }
 }

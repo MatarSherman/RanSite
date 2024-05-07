@@ -1,12 +1,12 @@
 .mainText {
     font-weight: 300;
-    font-size: 1.5em;
+    font-size: 1.25em;
     width: 70%;
     margin-block-start: 0.5em;
     margin-block-end: 0.5em;
 
     @media (max-width: 768px) {
         width: initial;
-        font-size: 1.2em;
+        font-size: 1.15em;
     }
 }

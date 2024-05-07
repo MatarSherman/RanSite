@@ -1,4 +1,4 @@
-import { SubHeading } from '../../../components/SubHeading'
+import { SubHeading } from '../../../components/SubHeading/SubHeading'
 import { Heading } from '../../../components/Heading/Heading'
 import { Page } from '../../../components/Page/Page'
 import { Texts } from '../../../components/Text/Text'
@@ -9,7 +9,7 @@ const Service = (props: { title: string, body: string }) => (
         <SubHeading className='serviceTitle'>
             {props.title}
         </SubHeading>
-        <Texts style={{ width: 'fit-content', fontSize: '1.2em' }}>
+        <Texts className='serviceBody'>
             {props.body}
         </Texts>
     </div>

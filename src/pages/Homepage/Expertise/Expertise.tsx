@@ -1,4 +1,4 @@
-import { SubHeading } from '../../../components/SubHeading'
+import { SubHeading } from '../../../components/SubHeading/SubHeading'
 import { Heading } from '../../../components/Heading/Heading'
 import { Page } from '../../../components/Page/Page'
 import { Texts } from '../../../components/Text/Text'

@@ -29,3 +29,11 @@
         font-size: 1.2em !important;
     }
 }
+
+.serviceBody {
+    width: fit-content;
+
+    @media (min-width: 950px) {
+        font-size: 1.25em;
+    }
+}

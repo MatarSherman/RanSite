@@ -13,6 +13,11 @@
         min-width: 40%;
     }
 
+    .heroBody {
+        font-size: 1.5em;
+        color: #004033;
+    }
+
     img {
         clip-path: inset(1px);
         @media (max-width: 1230px) {
