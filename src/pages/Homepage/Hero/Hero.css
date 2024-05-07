@@ -9,7 +9,7 @@
     .hero-text {
         z-index: 3;
         /* box-shadow: 1px -3em 8px 2px black; */
-        padding: 10vh 1em 0 3%;
+        padding: 100px 1em 0 3%;
         min-width: 40%;
     }
 

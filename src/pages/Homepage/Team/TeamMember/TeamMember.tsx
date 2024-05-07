@@ -13,7 +13,7 @@ const fontSize = 'clamp(1.25em, 7.5vw, 1.5em)'
 
 export const TeamMember = ({ name, role, link }: Props) => {
     return (
-        <div className="teamMember" style={{ backgroundColor: 'white', margin: '3em 0', padding: '1em calc(0.75em + 1vw) 2em 1em', boxShadow: '1px 1px 3px -1px black', width: '50em' }}>
+        <div className="teamMember" style={{ backgroundColor: 'white', margin: '1.5em 0', padding: '0.1em calc(0.75em + 1vw) 0.5em 1em', boxShadow: '1px 1px 3px -1px black', width: '50em' }}>
             <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', gap: '1em' }}>
                 <SubHeading style={{ textWrap: 'nowrap', marginBottom: '0.8em', fontSize: 'clamp(1.25em, 7.5vw, 1.5em)' }}>{name}</SubHeading>
                 <div>
