@@ -16,6 +16,9 @@
     .heroBody {
         font-size: 1.5em;
         color: #004033;
+        @media (max-width: 475px) {
+            font-size: 1.3em
+        }
     }
 
     img {
