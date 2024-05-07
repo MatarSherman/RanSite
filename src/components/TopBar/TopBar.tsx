@@ -50,19 +50,16 @@ export const TopBar = () => {
         <Tab section='/'>Home</Tab>
         <Tab section='/expertise'>Expertise</Tab>
         <Tab section='/clients'>Clients</Tab>
-        <Tab section='/#team'>Team</Tab>
+        <Tab section='/#team'>Leadership Team</Tab>
       </div>
       <div className="menuButton mobile" ref={menuRef}>
         <BurgerIcon onClick={() => setIsMenuOpen(curr => !curr)} className="mobile" style={{ width: '1em', height: '1em', userSelect: 'none' }}>
         </BurgerIcon>
         <div className={`menu ${isMenuOpen ? 'open' : 'closed'}`} style={{ display: 'flex', flexDirection: 'column', gap: '1em', textWrap: 'nowrap' }}>
-          <Tab onClick={() => setIsMenuOpen(false)} section="home" >Home</Tab>
-          <Tab onClick={() => setIsMenuOpen(false)} section='about' >About Us</Tab>
-          <Tab onClick={() => setIsMenuOpen(false)} section='expertise' >Our Expertise</Tab>
-          <Tab onClick={() => setIsMenuOpen(false)} section='services' >Our Services</Tab>
-          <Tab onClick={() => setIsMenuOpen(false)} section='clients' >Clients</Tab>
-          <Tab onClick={() => setIsMenuOpen(false)} section='team' >Leadership Team</Tab>
-          <Tab onClick={() => setIsMenuOpen(false)} section='contact' >Contact us</Tab>
+          <Tab onClick={() => setIsMenuOpen(false)} section='/' >Home</Tab>
+          <Tab onClick={() => setIsMenuOpen(false)} section='/expertise' >Our Expertise</Tab>
+          <Tab onClick={() => setIsMenuOpen(false)} section='/clients' >Clients</Tab>
+          <Tab onClick={() => setIsMenuOpen(false)} section='/#team' >Leadership Team</Tab>
         </div>
       </div>
 
