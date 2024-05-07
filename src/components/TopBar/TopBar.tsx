@@ -50,6 +50,7 @@ export const TopBar = () => {
         <Tab section='/'>Home</Tab>
         <Tab section='/expertise'>Expertise</Tab>
         <Tab section='/clients'>Clients</Tab>
+        <Tab section='/#team'>Team</Tab>
       </div>
       <div className="menuButton mobile" ref={menuRef}>
         <BurgerIcon onClick={() => setIsMenuOpen(curr => !curr)} className="mobile" style={{ width: '1em', height: '1em', userSelect: 'none' }}>
