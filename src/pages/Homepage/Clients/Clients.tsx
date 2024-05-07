@@ -1,6 +1,6 @@
 import { SubHeading } from '../../../components/SubHeading/SubHeading'
 import { Heading } from '../../../components/Heading/Heading'
-import { Page } from '../../../components/Page/Page'
+import { Section } from '../../../components/Section/Section'
 import { Texts } from '../../../components/Text/Text'
 import './Clients.css'
 
@@ -16,7 +16,7 @@ const Client = (props: { text: string }) => {
 
 export const Clients = () => {
     return (
-        <Page id='clients'>
+        <Section id='clients'>
             <Heading style={{ textAlign: 'center', marginBottom: 'min(10vw, 1.5em)' }}>
                 Target Client Segments
             </Heading>
@@ -57,6 +57,6 @@ export const Clients = () => {
                 InTerra aids in smart city development, traffic flow analysis, and urban planning with precise data analytics,<br />
                 contributing to more livable, efficiently managed urban environments.
             </Texts> */}
-        </Page>
+        </Section>
     )
 }

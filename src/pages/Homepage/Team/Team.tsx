@@ -1,13 +1,13 @@
 import { Texts } from '../../../components/Text/Text'
 import { Heading } from '../../../components/Heading/Heading'
-import { Page } from '../../../components/Page/Page'
+import { Section } from '../../../components/Section/Section'
 import { SubHeading } from '../../../components/SubHeading/SubHeading'
 import { TeamMember } from './TeamMember/TeamMember'
 import './Team.css'
 
 export const Team = () => {
     return (
-        <Page id='team'>
+        <Section id='team'>
             <Heading>
                 Leadership Team
             </Heading>
@@ -40,6 +40,6 @@ export const Team = () => {
                 For inquiries, collaborations, or more information on how we can assist your project or organization,<br />
                 please contact us. [Insert contact form or email and phone number]
             </p>
-        </Page>
+        </Section>
     )
 }

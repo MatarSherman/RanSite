@@ -1,13 +1,13 @@
 import { SubHeading } from '../../../components/SubHeading/SubHeading'
 import { Heading } from '../../../components/Heading/Heading'
-import { Page } from '../../../components/Page/Page'
+import { Section } from '../../../components/Section/Section'
 import { Texts } from '../../../components/Text/Text'
 import expertise from '../../../assets/images/expertise.jpg';
 import './Expertise.css'
 
 export const Expertise = () => {
     return (
-        <Page id='expertise' className='page'>
+        <Section id='expertise' className='page'>
             <div className='page-text'>
                 <Heading >
                     Our Expertise
@@ -57,6 +57,6 @@ export const Expertise = () => {
             {/* <div className='img-wrap'>
                 <img src={expertise} />
             </div> */}
-        </Page>
+        </Section>
     )
 }

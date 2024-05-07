@@ -1,6 +1,6 @@
 import { SubHeading } from '../../../components/SubHeading/SubHeading'
 import { Heading } from '../../../components/Heading/Heading'
-import { Page } from '../../../components/Page/Page'
+import { Section } from '../../../components/Section/Section'
 import { Texts } from '../../../components/Text/Text'
 import './Services.css'
 
@@ -18,7 +18,7 @@ const Service = (props: { title: string, body: string }) => (
 
 export const Services = () => {
     return (
-        <Page id='services' className='services'>
+        <Section id='services' className='services'>
             <Heading className='servicesHeading'>
                 Our Services
             </Heading>
@@ -36,6 +36,6 @@ export const Services = () => {
                     body='For unique challenges, we develop bespoke technology solutions, employing our space tech, mapping, and CGD expertise to meet specific project requirements.'
                 />
             </div>
-        </Page>
+        </Section>
     )
 }
