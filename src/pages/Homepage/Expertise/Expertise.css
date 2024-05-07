@@ -1,10 +1,10 @@
 #expertise.page {
-    transform: translate(0, 0);
-    display: flex;
-    flex-direction: row;
+    /* transform: translate(0, 0); */
+    /* display: flex;
+    flex-direction: row; */
     /* padding: 0 !important; */
-    overflow: clip;
-    padding: 0 0 0 3%;
+    /* overflow: clip; */
+    /* padding: 0 0 0 3%; */
 }
 
 #expertise {
