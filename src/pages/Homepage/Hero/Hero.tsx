@@ -1,18 +1,18 @@
 import { SubHeading } from '../../../components/SubHeading/SubHeading';
 import { Heading } from '../../../components/Heading/Heading';
-import { Page } from '../../../components/Page/Page';
+import { Section } from '../../../components/Section/Section';
 import './Hero.css'
 import { Texts } from '../../../components/Text/Text';
 import bg from '../../../assets/images/bg.jpg';
 
 export const Hero = () => {
     return (
-        <Page id='home' className='page'>
-            <div className='page-text'>
+        <Section id='hero' className='heroSection'>
+            <div className='hero-text'>
                 <Heading style={{ fontSize: 'clamp(4.3em, calc(3.5em + 2vw), 5em)', margin: 0, fontWeight: 600 }}>
                     InTerra
                 </Heading>
-                <SubHeading style={{ marginTop: 0, fontSize: '1.75em' , marginBlockEnd: '1em', color: '#1D6B5F', fontWeight: 500}}>
+                <SubHeading style={{ marginTop: 0, fontSize: '1.75em', marginBlockEnd: '1em', color: '#1D6B5F', fontWeight: 500 }}>
                     Pioneering the Future of Earth Intelligence
                 </SubHeading>
                 <Texts className='heroBody'>
@@ -27,6 +27,6 @@ export const Hero = () => {
                 </Texts>
             </div>
             {/* <img src={bg}/> */}
-        </Page>
+        </Section>
     )
 }

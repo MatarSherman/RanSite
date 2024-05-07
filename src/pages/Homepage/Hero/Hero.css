@@ -1,12 +1,12 @@
-#home.page {
+#hero.heroSection {
     transform: translate(0, 0);
     display: flex;
     flex-direction: row;
     padding: 0 !important;
     overflow: clip;
 }
-#home {
-    .page-text {
+#hero {
+    .hero-text {
         z-index: 3;
         /* box-shadow: 1px -3em 8px 2px black; */
         padding: 10vh 1em 0 3%;
@@ -64,14 +64,14 @@
 }
 
 @media (max-width: 1230px) {
-    #home.page {
+    #hero.heroSection {
         flex-direction: column;
     }
 
     /* .page-text {
         box-shadow: 1px 0px 8px 2px black;
     } */
-    #home {
+    #hero {
         .page-text>* {
             width: calc(45% + 10em);
             max-width: 95%;

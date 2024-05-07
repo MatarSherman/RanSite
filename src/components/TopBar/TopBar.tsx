@@ -28,7 +28,7 @@ export const TopBar = () => {
       style={{
         background: 'white', width: '101vw', 
         boxShadow: '0px 0px 5px 0px black', display: 'flex', alignItems: 'center',
-        zIndex: 1, position: 'fixed',
+        zIndex: 99, position: 'fixed',
       }}>
       <Tab section={'home'}>
         <img src={logo} style={{width:'10em'}}/>
@@ -40,7 +40,7 @@ export const TopBar = () => {
           textWrap: 'nowrap',
         }}
       >
-        <Tab section="home" >Home</Tab>
+        <Tab section="hero" >Home</Tab>
         <Tab section='about' >About Us</Tab>
         <Tab section='expertise' >Our Expertise</Tab>
         <Tab section='services' >Our Services</Tab>
