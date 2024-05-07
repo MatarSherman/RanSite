@@ -1,11 +1,11 @@
 import { SubHeading } from '../../components/SubHeading/SubHeading'
 import { Heading } from '../../components/Heading/Heading'
-import { Page } from '../../components/Page/Page'
+import { Section } from '../../components/Section/Section'
 import { Texts } from '../../components/Text/Text'
 
 export const About = () => {
     return (
-        <Page id='about'>
+        <Section id='about'>
             <Heading >
                 About Us
             </Heading>
@@ -28,6 +28,6 @@ export const About = () => {
                 Our approach transforms this data into actionable insights and tools that drive sustainability, efficiency, and innovation across all sectors.
                 We're not just gathering information; we're creating a sustainable future through intelligent, terra-centric innovations.
             </Texts>
-        </Page>
+        </Section>
     )
 }
