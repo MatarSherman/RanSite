@@ -9,10 +9,10 @@ export const Hero = () => {
     return (
         <Section id='hero' className='heroSection'>
             <div className='hero-text'>
-                <Heading style={{ fontSize: 'clamp(4.3em, calc(3.5em + 2vw), 4.5em)', margin: 0, fontWeight: 600 }}>
+                <Heading className='heroHeading'>
                     InTerra
                 </Heading>
-                <SubHeading style={{ marginTop: 0, fontSize: '1.75em', marginBlockEnd: '1em', color: '#1D6B5F', fontWeight: 500 }}>
+                <SubHeading style={{ marginTop: 0, color: '#1D6B5F', fontWeight: 500, marginBottom: '0.25em' }}>
                     Pioneering the Future of Earth Intelligence
                 </SubHeading>
                 <Texts className='heroBody'>

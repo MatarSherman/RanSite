@@ -25,7 +25,7 @@ export const Expertise = (props: { isExpanded?: boolean }) => {
                 to address complex challenges in geospatial intelligence.
             </Texts>
             {
-                props.isExpanded ? null : <a href='/expertise'><Button style={{ marginTop: '2em' }}>
+                props.isExpanded ? null : <a href='/expertise'><Button style={{ marginTop: '1.25em' }}>
                     Learn More
                     <Chevron />
                 </Button></a>

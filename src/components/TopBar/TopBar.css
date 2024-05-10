@@ -2,6 +2,13 @@
     display: none
 }
 
+.topBarLogo {
+    height: 3em;
+    @media (min-width: 475px) {
+        height: 3.5em
+    }
+}
+
 .bar {
     gap: calc(1em + 4vw);
     padding: 0 2em;

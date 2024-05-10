@@ -19,12 +19,12 @@ const Client = (props: { text: string }) => {
 export const Clients = () => {
     return (
         <Section id='clients'>
-            <Heading style={{ textAlign: 'center', marginBottom: '0.75em'}}>
+            <Heading className='clientsHeading' >
                 Target Client Segments
             </Heading>
-            <Texts style={{textAlign: 'center', marginInline: 'auto', marginBottom: 'min(10vw, 1.5em)' }}>
-                InTerra enhances capabilities with satellite imagery and CGD, providing <br />
-                advanced mapping, area analysis, and competitive intelligence services that <br />
+            <Texts className='clientsParagraph' >
+                InTerra enhances capabilities with satellite imagery and CGD, providing
+                advanced mapping, area analysis, and competitive intelligence services that
                 are essential for firms looking to lead in the new space era.
             </Texts>
             <div className='clientsRow firstRow'>
@@ -36,7 +36,7 @@ export const Clients = () => {
                 <Client text='Aviation and Aerospace Companies' />
                 <Client text='Tourism and Hospitality Providers' />
             </div>
-            <a href='/clients'><Button style={{ margin: '2em auto 0' }}>
+            <a href='/clients'><Button className='clientsButton' >
                 Learn More
                 <Chevron />
             </Button></a>

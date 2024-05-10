@@ -1,7 +1,9 @@
 .teamMember {
     max-width: min(600px, 92%);
+    margin: 1.5em 0;
     @media (min-width: 850px) {
         max-width: 450px;
+        margin: 0 0 1.5em;
     }
 }
 

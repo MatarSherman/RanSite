@@ -5,7 +5,15 @@
     padding: 0 !important;
     overflow: clip;
 }
+
 #hero {
+    .heroHeading {
+        font-size: 3.5em;
+        font-size:2.5em;
+        margin: 0;
+        font-weight: 600;
+    }
+
     .hero-text {
         z-index: 3;
         /* box-shadow: 1px -3em 8px 2px black; */
@@ -14,15 +22,16 @@
     }
 
     .heroBody {
-        font-size: 1.5em;
         color: #004033;
+
         @media (max-width: 475px) {
-            font-size: 1.3em
+            font-size: 1.1em
         }
     }
 
     img {
         clip-path: inset(1px);
+
         @media (max-width: 1230px) {
             height: 100%;
             width: auto;
@@ -37,6 +46,7 @@
         height: max-content;
         width: max-content; */
         display: flex;
+
         @media (max-width: 1230px) {
             justify-content: center;
             align-items: center;
@@ -77,5 +87,5 @@
             max-width: 95%;
         }
     }
-    
+
 }

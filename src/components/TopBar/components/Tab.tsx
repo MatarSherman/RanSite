@@ -21,7 +21,7 @@ export const Tab = (props: Props & React.ComponentProps<'a'>) => {
             {...props}
             // onClick={onClick}
             href={props.section}
-            style={{ textDecoration: 'none', color: 'unset', cursor: 'pointer', ...props.style }}
+            style={{ textDecoration: 'none', color: '#004e42', cursor: 'pointer', ...props.style }}
         >{
 
             }

@@ -30,8 +30,8 @@ export const TopBar = () => {
         boxShadow: '0px 0px 5px 0px black', display: 'flex', alignItems: 'center',
         zIndex: 99, position: 'fixed',
       }}>
-      <Tab section={'home'}>
-        <img src={logo} style={{ width: '10em' }} />
+      <Tab section={'home'} style={{minHeight: '4.25em', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+        <img src={logo} className="topBarLogo"  />
       </Tab>
       <div
         className={'desktop'}

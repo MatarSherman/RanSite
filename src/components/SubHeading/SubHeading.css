@@ -1,6 +1,10 @@
 .subHeading {
     font-size: 1.5em;
-    margin-block-end: 0.3em;
+    margin-block-start: 0.3em;
+    margin-block-end: 0.1em;
     font-weight: 400;
-    color: #0c4d43;
+    color: #0c5147;
+    @media (max-width: 475px) {
+        font-size: 1.2em
+    }
 }

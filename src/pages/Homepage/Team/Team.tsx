@@ -32,14 +32,14 @@ export const Team = () => {
                     link='https://www.linkedin.com/in/matan-mor-9939b9182/'
                 />
             </div>
-            <Heading id='contact' style={{ fontSize: '2em', fontWeight: 600 }}>
-                Contact Us<br />
+            <Heading id='contact'>
+                Contact Us
             </Heading>
             <SubHeading>Connect with InTerra</SubHeading>
-            <p>
+            <Texts>
                 For inquiries, collaborations, or more information on how we can assist your project or organization,<br />
                 please contact us. [Insert contact form or email and phone number]
-            </p>
+            </Texts>
         </Section>
     )
 }
