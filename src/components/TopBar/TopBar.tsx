@@ -2,7 +2,7 @@ import { Tab } from "./components/Tab";
 import './TopBar.css'
 import { BurgerIcon } from "../burgerIcon";
 import { useEffect, useRef, useState } from "react";
-import logo from '../../assets/images/Interra Logo.jpg'
+import logo from '../../assets/images/InterraLogoWhite.png';
 
 export const TopBar = () => {
   const menuRef = useRef(null)
@@ -23,14 +23,8 @@ export const TopBar = () => {
   }, [menuRef]);
 
   return (
-    <div
-      className={'bar'}
-      style={{
-        background: 'white', width: '101vw',
-        boxShadow: '0px 0px 5px 0px black', display: 'flex', alignItems: 'center',
-        zIndex: 99, position: 'fixed',
-      }}>
-      <Tab section={'home'} style={{minHeight: '4.25em', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+    <div className={'bar'}>
+      <Tab section={'/'} style={{minHeight: '4.25em', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
         <img src={logo} className="topBarLogo"  />
       </Tab>
       <div

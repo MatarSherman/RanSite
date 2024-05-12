@@ -4,15 +4,50 @@
 
 .topBarLogo {
     height: 3em;
+    filter: grayscale(1) brightness(0) invert(3);
+    margin-top: -0.5em;
+
     @media (min-width: 475px) {
         height: 3.5em
     }
 }
 
 .bar {
+    width: 101vw;
+    box-shadow: 0px 0px 5px 0px black;
+    display: flex;
+    align-items: center;
+    z-index: 99;
+    position: fixed;
     gap: calc(1em + 4vw);
     padding: 0 2em;
     z-index: 9999999;
+    background: linear-gradient(65deg, #1d6b5f, #458b80, #18b49d);
+    background-size: 200% 200%;
+    color: white;
+    background-repeat: repeat;
+
+    animation: fadeAnimation 5s ease-in-out infinite;
+
+    @media (max-width: 1230px) {
+        justify-content: space-between;
+        gap: 0;
+        padding: 0 2em 0 0;
+    }
+}
+
+@keyframes fadeAnimation {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
 }
 
 .menuButton {
@@ -52,11 +87,5 @@
 
     .mobile {
         display: initial;
-    }
-
-    .bar {
-        justify-content: space-between;
-        gap: 0;
-        padding: 0 2em 0 0;
     }
 }
