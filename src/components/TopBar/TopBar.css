@@ -5,7 +5,7 @@
 .topBarLogo {
     height: 3em;
     filter: grayscale(1) brightness(0) invert(3);
-    margin-top: -0.5em;
+    margin-top: -0.25em;
 
     @media (min-width: 475px) {
         height: 3.5em
