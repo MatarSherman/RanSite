@@ -50,10 +50,10 @@ export const TopBar = () => {
         <BurgerIcon onClick={() => setIsMenuOpen(curr => !curr)} className="mobile" style={{ width: '1em', height: '1em', userSelect: 'none' }}>
         </BurgerIcon>
         <div className={`menu ${isMenuOpen ? 'open' : 'closed'}`} style={{ display: 'flex', flexDirection: 'column', gap: '1em', textWrap: 'nowrap' }}>
-          <Tab onClick={() => setIsMenuOpen(false)} section='/' >Home</Tab>
-          <Tab onClick={() => setIsMenuOpen(false)} section='/expertise' >Our Expertise</Tab>
-          <Tab onClick={() => setIsMenuOpen(false)} section='/clients' >Clients</Tab>
-          <Tab onClick={() => setIsMenuOpen(false)} section='/#team' >Leadership Team</Tab>
+          <Tab style={{color: '#004e42'}} onClick={() => setIsMenuOpen(false)} section='/' >Home</Tab>
+          <Tab style={{color: '#004e42'}} onClick={() => setIsMenuOpen(false)} section='/expertise' >Our Expertise</Tab>
+          <Tab style={{color: '#004e42'}} onClick={() => setIsMenuOpen(false)} section='/clients' >Clients</Tab>
+          <Tab style={{color: '#004e42'}} onClick={() => setIsMenuOpen(false)} section='/#team' >Leadership Team</Tab>
         </div>
       </div>
 
