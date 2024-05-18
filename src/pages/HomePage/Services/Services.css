@@ -1,0 +1,39 @@
+.services {
+    @media (min-width: 950px) {
+        margin-block-end: 5vw
+    }
+}
+
+.servicesInfo {
+    @media (min-width: 950px) {
+        display: flex;
+        flex-direction: row;
+        gap: 1vw;
+    }
+}
+
+.servicesHeading {
+    @media (min-width: 950px) {
+        text-align: center;
+    }
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+}
+
+.serviceTitle {
+    @media (min-width: 990px) {
+        text-wrap: nowrap;
+        font-size: 1.2em !important;
+    }
+}
+
+.serviceBody {
+    width: fit-content;
+
+    @media (min-width: 950px) {
+        font-size: 1.25em;
+    }
+}

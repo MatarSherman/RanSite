@@ -1,0 +1,9 @@
+.cards {
+    margin-bottom: 1.5em;
+    @media (min-width: 850px) {
+        display: flex;
+        flex-direction: row;
+        gap: 2vw;
+        width: 100%
+    }
+}
