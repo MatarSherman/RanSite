@@ -1,16 +1,10 @@
 import './App.css'
-import { Hero } from './pages/HomePage/Hero/Hero';
 import { TopBar } from './components/TopBar/TopBar';
-import { About } from './pages/HomePage/About';
-import { Expertise } from './pages/HomePage/Expertise/Expertise';
-import { Services } from './pages/HomePage/Services/Services';
-import { Clients } from './pages/HomePage/Clients/Clients';
-import { Team } from './pages/HomePage/Team/Team';
 import { BrowserRouter, Routes, Route, ScrollRestoration, useLocation } from 'react-router-dom';
 import { ExpertisePage } from './pages/ExpertisePage/ExpertisePage';
-import { HomePage } from './pages/HomePage/Homepage.tsx';
 import { ClientsPage } from './pages/ClientsPage/ClientsPage';
 import { useEffect } from 'react';
+import { HomePage } from './pages/HomePage/HomePage';
 
 const HandleScrollPosition = ({ history, children }: any) => {
   const location = useLocation();
