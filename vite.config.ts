@@ -11,7 +11,7 @@ export default defineConfig({
     extensions: ['.tsx', '.ts', '.jsx', '.js']
   },
   build: {
-    outDir: 'deploy/build',
+    // outDir: 'deploy/build',
     assetsInlineLimit: Infinity,
   }
 });
