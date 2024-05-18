@@ -8,7 +8,7 @@ import { Clients } from './pages/HomePage/Clients/Clients';
 import { Team } from './pages/HomePage/Team/Team';
 import { BrowserRouter, Routes, Route, ScrollRestoration, useLocation } from 'react-router-dom';
 import { ExpertisePage } from './pages/ExpertisePage/ExpertisePage';
-import { HomePage } from './pages/HomePage/Homepage';
+import { HomePage } from './pages/HomePage/Homepage.tsx';
 import { ClientsPage } from './pages/ClientsPage/ClientsPage';
 import { useEffect } from 'react';
 

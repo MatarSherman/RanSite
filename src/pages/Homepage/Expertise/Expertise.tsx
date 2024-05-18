@@ -13,17 +13,20 @@ const anchorId = 'expertiseAnchor'
 export const Expertise = (props: { isExpanded?: boolean }) => {
     return (
         <Section id='expertise'>
-            <div id={anchorId} className='anchor'/>
+            <div id={anchorId} className='anchor' />
             <Heading >
                 Our Expertise
             </Heading>
             <SubHeading >
                 Creating the Winning Earth Intelligence
             </SubHeading>
-            <Texts>
-                At InTerra, we bring together a blend of advanced technologies and innovative methods<br />
-                to address complex challenges in geospatial intelligence.
-            </Texts>
+            {
+                props.isExpanded ? null :
+                    <Texts>
+                        At InTerra, we bring together a blend of advanced technologies and innovative methods
+                        to address complex challenges in geospatial intelligence.
+                    </Texts>
+            }
             {
                 props.isExpanded ? null : <a href='/expertise'><Button style={{ marginTop: '1.25em' }}>
                     Learn More
