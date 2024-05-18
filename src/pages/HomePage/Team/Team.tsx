@@ -38,7 +38,7 @@ export const Team = () => {
             <SubHeading>Connect with InTerra</SubHeading>
             <Texts>
                 For inquiries, collaborations, or more information on how we can assist your project or organization,<br />
-                please contact us. [Insert contact form or email and phone number]
+                please contact us. Info@interra.website
             </Texts>
         </Section>
     )

@@ -18,7 +18,7 @@ export const ClientsPage = () => {
                     Urban Development and Infrastructure Planners and Engineers
                 </SubHeading>
                 <Texts>
-                    InTerra enhances capabilities with satellite imagery and CGD,<br />
+                    InTerra enhances capabilities with satellite imagery and Crowdsourced Geospatial Data (CGD),<br />
                     providing advanced mapping, area analysis, and competitive intelligence services that are essential<br />
                     for firms looking to lead in the new space era.
                 </Texts>
