@@ -1,8 +1,8 @@
-import { Texts } from '../../../components/Text/Text'
-import { Heading } from '../../../components/Heading/Heading'
-import { Section } from '../../../components/Section/Section'
-import { SubHeading } from '../../../components/SubHeading/SubHeading'
-import { TeamMember } from './TeamMember/TeamMember'
+import { Texts } from '../../../components/Text/Text.tsx'
+import { Heading } from '../../../components/Heading/Heading.tsx'
+import { Section } from '../../../components/Section/Section.tsx'
+import { SubHeading } from '../../../components/SubHeading/SubHeading.tsx'
+import { TeamMember } from './TeamMember/TeamMember.tsx'
 import './Team.css'
 
 export const Team = () => {

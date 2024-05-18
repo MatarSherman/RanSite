@@ -1,10 +1,10 @@
 import './App.css'
-import { TopBar } from './components/TopBar/TopBar';
+import { TopBar } from './components/TopBar/TopBar.tsx';
 import { BrowserRouter, Routes, Route, ScrollRestoration, useLocation } from 'react-router-dom';
-import { ExpertisePage } from './pages/ExpertisePage/ExpertisePage';
-import { ClientsPage } from './pages/ClientsPage/ClientsPage';
+import { ExpertisePage } from './pages/ExpertisePage/ExpertisePage.tsx';
+import { ClientsPage } from './pages/ClientsPage/ClientsPage.tsx';
 import { useEffect } from 'react';
-import { HomePage } from './pages/HomePage/HomePage';
+import { HomePage } from './pages/HomePage/HomePage.tsx';
 
 const HandleScrollPosition = ({ history, children }: any) => {
   const location = useLocation();

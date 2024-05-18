@@ -1,9 +1,9 @@
-import { About } from "./About";
-import { Clients } from "./Clients/Clients";
-import { Expertise } from "./Expertise/Expertise";
-import { Hero } from "./Hero/Hero";
-import { Services } from "./Services/Services";
-import { Team } from "./Team/Team";
+import { About } from "./About.tsx";
+import { Clients } from "./Clients/Clients.tsx";
+import { Expertise } from "./Expertise/Expertise.tsx";
+import { Hero } from "./Hero/Hero.tsx";
+import { Services } from "./Services/Services.tsx";
+import { Team } from "./Team/Team.tsx";
 
 export const HomePage = () => {
     return (

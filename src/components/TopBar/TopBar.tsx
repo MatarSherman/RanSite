@@ -1,6 +1,6 @@
-import { Tab } from "./components/Tab";
+import { Tab } from "./components/Tab.tsx";
 import './TopBar.css'
-import { BurgerIcon } from "../burgerIcon";
+import { BurgerIcon } from "../burgerIcon.tsx";
 import { useEffect, useRef, useState } from "react";
 import logo from '../../assets/images/InterraLogoWhite.png';
 

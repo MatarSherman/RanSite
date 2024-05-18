@@ -1,11 +1,11 @@
-import { SubHeading } from '../../../components/SubHeading/SubHeading'
-import { Heading } from '../../../components/Heading/Heading'
-import { Section } from '../../../components/Section/Section'
-import { Texts } from '../../../components/Text/Text'
+import { SubHeading } from '../../../components/SubHeading/SubHeading.tsx'
+import { Heading } from '../../../components/Heading/Heading.tsx'
+import { Section } from '../../../components/Section/Section.tsx'
+import { Texts } from '../../../components/Text/Text.tsx'
 // import expertise from '../../../assets/images/expertise.jpg';
 import './Expertise.css'
-import { Button } from '../../../components/Button/Button';
-import { Chevron } from '../../../components/Chevron'
+import { Button } from '../../../components/Button/Button.tsx';
+import { Chevron } from '../../../components/Chevron.tsx'
 import { Link } from 'react-router-dom'
 
 const anchorId = 'expertiseAnchor'

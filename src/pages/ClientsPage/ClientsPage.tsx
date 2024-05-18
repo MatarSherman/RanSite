@@ -1,12 +1,11 @@
 import { Link } from 'react-router-dom'
-import { Button } from '../../components/Button/Button'
-import { Chevron } from '../../components/Chevron'
-import { Heading } from '../../components/Heading/Heading'
-import { Section } from '../../components/Section/Section'
-import { Texts } from '../../components/Text/Text'
-import { Clients } from '../HomePage/Clients/Clients'
+import { Button } from '../../components/Button/Button.tsx'
+import { Chevron } from '../../components/Chevron.tsx'
+import { Heading } from '../../components/Heading/Heading.tsx'
+import { Section } from '../../components/Section/Section.tsx'
+import { Texts } from '../../components/Text/Text.tsx'
 import './ClientsPage.css'
-import { SubHeading } from '../../components/SubHeading/SubHeading'
+import { SubHeading } from '../../components/SubHeading/SubHeading.tsx'
 
 export const ClientsPage = () => {
     return (

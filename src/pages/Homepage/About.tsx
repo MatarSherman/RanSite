@@ -1,7 +1,7 @@
-import { SubHeading } from '../../components/SubHeading/SubHeading'
-import { Heading } from '../../components/Heading/Heading'
-import { Section } from '../../components/Section/Section'
-import { Texts } from '../../components/Text/Text'
+import { SubHeading } from '../../components/SubHeading/SubHeading.tsx'
+import { Heading } from '../../components/Heading/Heading.tsx'
+import { Section } from '../../components/Section/Section.tsx'
+import { Texts } from '../../components/Text/Text.tsx'
 
 export const About = () => {
     return (

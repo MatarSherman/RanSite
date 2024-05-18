@@ -1,5 +1,5 @@
-import { SubHeading } from "../../../../components/SubHeading/SubHeading"
-import { Texts } from "../../../../components/Text/Text"
+import { SubHeading } from "../../../../components/SubHeading/SubHeading.tsx"
+import { Texts } from "../../../../components/Text/Text.tsx"
 import linkedin from '../../../../assets/images/linkedin.png'
 import './TeamMember.css'
 

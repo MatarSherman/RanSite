@@ -1,8 +1,8 @@
-import { SubHeading } from '../../../components/SubHeading/SubHeading';
-import { Heading } from '../../../components/Heading/Heading';
-import { Section } from '../../../components/Section/Section';
+import { SubHeading } from '../../../components/SubHeading/SubHeading.tsx';
+import { Heading } from '../../../components/Heading/Heading.tsx';
+import { Section } from '../../../components/Section/Section.tsx';
 import './Hero.css'
-import { Texts } from '../../../components/Text/Text';
+import { Texts } from '../../../components/Text/Text.tsx';
 import bg from '../../../assets/images/bg.jpg';
 
 export const Hero = () => {
