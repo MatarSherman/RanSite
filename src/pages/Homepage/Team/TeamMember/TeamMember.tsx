@@ -7,11 +7,12 @@ interface Props {
     name: string,
     role: string,
     link: string,
+    companyRole: string,
 }
 
 const fontSize = 'clamp(1.25em, 7.5vw, 1.5em)'
 
-export const TeamMember = ({ name, role, link }: Props) => {
+export const TeamMember = ({ name, companyRole, role, link }: Props) => {
     return (
         <div className="teamMember" style={{ backgroundColor: 'white', padding: '0.1em calc(0.75em + 1vw) 0.5em 1em', boxShadow: '1px 1px 3px -1px black', width: '50em' }}>
             <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', gap: '1em' }}>
@@ -22,6 +23,7 @@ export const TeamMember = ({ name, role, link }: Props) => {
                     </a>
                 </div>
             </div>
+            <Texts style={{marginBlock: '-1.25em -0.25em', fontSize: 'min(calc(0.75em + 0.5vw), 0.85em)' }}>{companyRole}</Texts>
             <hr style={{ width: '8em', marginLeft: 0, border: 0, backgroundColor: '#1D6B5F', height: '4px' }} />
             <Texts style={{ fontSize: 'calc(clamp(1.25em, 7.5vw, 1.5em) * 0.75)' }}>{role}</Texts>
         </div>
