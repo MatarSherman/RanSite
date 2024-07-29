@@ -20,19 +20,16 @@ export const Team = () => {
                     name='Ran Sherman'
                     role='Geospatial, Space-tech, and Cyber-Intelligence Expert'
                     link='https://www.linkedin.com/in/ran-sherman-a2827b145/'
-                    companyRole='Co-CEO'
                 />
                 <TeamMember
                     name='Amir Paz'
                     role='Technology Management Executive'
                     link='https://www.linkedin.com/in/amir-paz-71a32aa/'
-                    companyRole='Co-CEO'
                 />
                 <TeamMember
                     name='Dr. Matan Mor'
                     role='Geo Data Scientist & 3D Mapping Researcher'
                     link='https://www.linkedin.com/in/matan-mor-9939b9182/'
-                    companyRole='CTO'
                 />
             </div>
             <Heading id='contact'>
